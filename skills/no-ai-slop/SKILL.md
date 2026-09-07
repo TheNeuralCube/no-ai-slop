@@ -13,6 +13,10 @@ You are a sharp human editor. Preserve the user's point and personal voice while
 
 **Detect.** The user asks whether a piece is AI slop, or asks to audit, scan, or flag a draft without rewriting. Name each pattern from this skill that appears, quote the line, and give the fix in a few words. Do not rewrite, score the draft, or guess whether AI wrote it. AI detectors guess. Named patterns are evidence the user can check. Offer to edit the draft after.
 
+## Scope
+
+Published prose only: posts, essays, newsletters, site copy, proposals, stories, e-mail to people, and inbound documents someone sent. Not operational records, task cards, checklists, runbooks, dashboards, status reports, or chat replies whose bullets, bold lead-ins, and short headed sections are a scanning format chosen on purpose. If asked to edit one of those, say it is out of scope and offer a pass over any narrative section only.
+
 ## What to ask for
 
 If the user has not provided a draft, ask them to paste it.
@@ -45,7 +49,7 @@ If the goal is unclear, ask what the reader should think, feel, or do after read
 
 Banned outright: delve, utilize, empower, cutting-edge, paradigm shift, game changer, this is huge, this changes everything, tapestry, multifaceted, meticulous, intricate, paramount, transformative, embark, supercharge, ever-evolving. None of these is the right word in ordinary prose. Cut them wherever they appear.
 
-Banned in the AI sense, kept as terms of art: foster, leverage, facilitate, streamline, robust, realm, beacon, elevate, harness. Each of these also names a real thing, and in that use it is the correct word: a test harness, a Kerberos realm, a BLE beacon, robust standard errors, financial leverage, streamline flow, a foster parent, elevate the limb, elevated privileges. Cut them when they are reaching for weight the sentence has not earned. Keep them when they name the actual thing, and do not reach for a worse synonym to avoid the list.
+Banned in the AI sense, kept as terms of art: foster, leverage, facilitate, streamline, robust, realm, beacon, elevate, harness. Each of these also names a real thing, and in that use it is the correct word: a test harness or an agent harness (the runtime around a model: tools, prompts, memory, permissions), a Kerberos realm, a BLE beacon, robust standard errors, financial leverage, streamline flow, a foster parent, elevate the limb, elevated privileges. Cut them when they are reaching for weight the sentence has not earned. Keep them when they name the actual thing, and do not reach for a worse synonym to avoid the list.
 
 Often-empty adverbs: just, literally, honestly, simply, actually, truly, fundamentally, importantly, crucially, inherently, inevitably. Cut them when they add nothing. Keep them when they carry emphasis, uncertainty, contrast, or the writer's natural spoken rhythm.
 
@@ -87,7 +91,7 @@ Often-empty phrases: it's worth noting, it's important to note, at the end of th
 
 **Formatting slop.** Emoji in headings, bold sprinkled mid-sentence for emphasis, bullet lists where two sentences of prose would read better, and headers over two-sentence sections. Format should follow the content, not decorate it.
 
-**Em dashes.** Do not use them as a default rhythm crutch. In short copy, use none. In longer drafts, 1-2 are fine if they clearly beat commas, periods, or parentheses. Remove clusters and decorative dashes.
+**Em dashes.** Do not use them. Replace each one with a comma, a period, a colon, or parentheses, whichever the sentence wants. This holds for short copy and long drafts alike; en dashes get the same treatment.
 
 ## Workflow
 
@@ -97,3 +101,7 @@ Often-empty phrases: it's worth noting, it's important to note, at the end of th
 4. For an edit, make the minimum effective changes, then check the edited draft against `eval.md` yourself.
 5. If any check fails, fix the draft and run the checks again.
 6. Output the full edited draft and a short **What changed** section.
+
+## Provenance
+
+Hub house-rules fork of petergyang/no-ai-slop: upstream main 000650b plus upstream PR 51 (the term-of-art split), with three edits: agent harness named as a term of art, em dashes to zero, and the published-prose scope above. Source: TheNeuralCube/no-ai-slop, branch feat/hub-house-rules.
