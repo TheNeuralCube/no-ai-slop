@@ -7,7 +7,7 @@
     "url": "https://creatoreconomy.so"
   },
   "homepage": "https://creatoreconomy.so/p/use-my-no-ai-slop-skill-to-remove-20-ai-slop-patterns",
-  "repository": "https://github.com/petergyang/no-ai-slop",
+  "repository": "https://github.com/TheNeuralCube/no-ai-slop",
   "license": "MIT",
   "keywords": [
     "writing",
@@ -28,8 +28,8 @@
       "Preserve voice"
     ],
     "websiteURL": "https://creatoreconomy.so/p/use-my-no-ai-slop-skill-to-remove-20-ai-slop-patterns",
-    "privacyPolicyURL": "https://github.com/petergyang/no-ai-slop/blob/main/PRIVACY.md",
-    "termsOfServiceURL": "https://github.com/petergyang/no-ai-slop/blob/main/TERMS.md",
+    "privacyPolicyURL": "https://github.com/TheNeuralCube/no-ai-slop/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/TheNeuralCube/no-ai-slop/blob/main/TERMS.md",
     "defaultPrompt": [
       "(text)",
       "is this slop? (text)"

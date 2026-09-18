@@ -19,13 +19,28 @@ When you use AI to edit, it can also smooth away the vocabulary, cadence, humor,
 The easiest way to install the skill is to paste this into ChatGPT, Claude Code, Codex, or your favorite coding agent:
 
 ```text
-Install the /no-ai-slop skill globally from https://github.com/petergyang/no-ai-slop
+Install the /no-ai-slop skill globally from https://github.com/TheNeuralCube/no-ai-slop
 ```
 
 You can also install it with `npx`:
 
 ```sh
-npx skills add petergyang/no-ai-slop --skill no-ai-slop --global --yes
+npx skills add TheNeuralCube/no-ai-slop --skill no-ai-slop --global --yes
+```
+
+### Install as a plugin from the NeuralCube marketplace
+
+In Claude Code:
+
+```text
+/plugin marketplace add TheNeuralCube/no-ai-slop
+/plugin install no-ai-slop@neuralcube
+```
+
+In Codex:
+
+```sh
+codex plugin marketplace add TheNeuralCube/no-ai-slop
 ```
 
 ## How to use No AI Slop

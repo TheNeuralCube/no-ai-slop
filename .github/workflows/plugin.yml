@@ -19,6 +19,10 @@ jobs:
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
         with:
           python-version: "3.12"
+      - name: Validate Claude Code plugin and marketplace
+        run: |
+          npm install -g @anthropic-ai/claude-code@2.1.267
+          claude plugin validate . --strict
       - name: Build plugin
         run: python scripts/build_plugin.py
       - name: Upload workflow artifact
