@@ -37,11 +37,19 @@ In Claude Code:
 /plugin install no-ai-slop@neuralcube
 ```
 
-In Codex:
+In Codex, register the marketplace once from a terminal:
 
 ```sh
 codex plugin marketplace add TheNeuralCube/no-ai-slop
 ```
+
+Then restart the Codex desktop app and install from the GUI:
+
+1. Open the **Plugins** tab.
+2. Choose **NeuralCube plugins** from the marketplace sources.
+3. Open **No AI Slop** and click the plus button to install.
+
+The Codex app also picks up the marketplace automatically, without the terminal step, whenever this repo is open as a project.
 
 ## How to use No AI Slop
 
