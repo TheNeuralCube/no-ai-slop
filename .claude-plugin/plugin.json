@@ -1,0 +1,19 @@
+{
+  "name": "no-ai-slop",
+  "version": "1.0.6",
+  "description": "Removes 20+ patterns of AI slop from any piece of writing.",
+  "author": {
+    "name": "Peter Yang",
+    "url": "https://creatoreconomy.so"
+  },
+  "homepage": "https://github.com/TheNeuralCube/no-ai-slop",
+  "repository": "https://github.com/TheNeuralCube/no-ai-slop",
+  "license": "MIT",
+  "keywords": [
+    "writing",
+    "editing",
+    "voice",
+    "AI slop"
+  ],
+  "skills": "./skills/"
+}

@@ -90,7 +90,7 @@ def validate_build(plugin_root: Path, archive: Path) -> None:
         "TERMS.md",
     }
     actual = {
-        str(path.relative_to(plugin_root))
+        path.relative_to(plugin_root).as_posix()
         for path in plugin_root.rglob("*")
         if path.is_file()
     }

@@ -1,0 +1,24 @@
+{
+  "name": "neuralcube",
+  "description": "Skills and plugins maintained by TheNeuralCube.",
+  "owner": {
+    "name": "TheNeuralCube",
+    "url": "https://github.com/TheNeuralCube"
+  },
+  "plugins": [
+    {
+      "name": "no-ai-slop",
+      "source": "./",
+      "description": "Remove 20+ AI slop patterns from your writing without flattening your personal voice.",
+      "version": "1.0.6",
+      "repository": "https://github.com/TheNeuralCube/no-ai-slop",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "writing",
+        "editing",
+        "voice"
+      ]
+    }
+  ]
+}
