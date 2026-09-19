@@ -30,12 +30,21 @@ npx skills add TheNeuralCube/no-ai-slop --skill no-ai-slop --global --yes
 
 ### Install as a plugin from the NeuralCube marketplace
 
-In Claude Code:
+In Claude Code, from the prompt:
 
 ```text
 /plugin marketplace add TheNeuralCube/no-ai-slop
 /plugin install no-ai-slop@neuralcube
 ```
+
+Or from a terminal, which installs it at user scope for every project:
+
+```sh
+claude plugin marketplace add TheNeuralCube/no-ai-slop
+claude plugin install no-ai-slop@neuralcube
+```
+
+Confirm with `claude plugin list`, then use `/no-ai-slop` in any session.
 
 In Codex, register the marketplace once from a terminal:
 
