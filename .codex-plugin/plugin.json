@@ -1,6 +1,6 @@
 {
   "name": "no-ai-slop",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Removes 20+ patterns of AI slop from any piece of writing.",
   "author": {
     "name": "Peter Yang",
