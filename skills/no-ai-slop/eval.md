@@ -21,6 +21,7 @@ For detect requests, make sure the response names each pattern found with a quot
 ## Words to cut
 
 1. Are banned words, filler phrases, often-empty adverbs, and inflated claims removed unless quoted as examples?
+2. For a word banned only in its AI sense, is it kept where it names the actual thing and cut everywhere else, with no synonym substituted to avoid the list?
 
 ## Patterns to cut
 
@@ -30,9 +31,9 @@ For detect requests, make sure the response names each pattern found with a quot
 4. Is interpretive metadiscourse removed, including authorial metacommentary, reader guidance, emphasis markers, and redundant glossing?
 5. Are fake-profound kicker lines deleted instead of rewritten into better metaphors?
 6. Are summary-recap endings cut so the piece ends on a concrete point, takeaway, or next action?
-7. Is formatting slop removed: Emoji headings, decorative bold, bullets that should be prose, headers over tiny sections?
+7. Is formatting slop removed: emoji headings, decorative bold, bullets that should be prose, headers over tiny sections?
 8. Are colons sentence case unless grammar, a proper noun, a title, or code requires otherwise?
-9. Are em dashes used sparingly: Usually none in short copy, and only 1-2 in longer drafts when they clearly help?
+9. Are em dashes and en dashes gone, each replaced with a comma, period, colon, or parentheses?
 
 ## Final read
 
@@ -41,3 +42,4 @@ For detect requests, make sure the response names each pattern found with a quot
 3. Would the edited draft sound natural if read to a sharp colleague?
 4. Does the final output include the full edited draft and a short **What changed** section?
 5. For detect requests, does the response name each pattern with a quoted line and a short fix, without rewriting, scoring, or claiming AI authorship?
+6. Was the draft published prose per the Scope section, or did the response say it was out of scope and offer a narrative-only pass?
